@@ -1,0 +1,16 @@
+# Nmap 7.99 scan initiated Thu Aug 27 14:33:25 2026 as: /data/data/com.termux/files/usr/bin/nmap -sT -oN task1_scan.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.012s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+
+Nmap scan report for 192.168.0.105
+Host is up (0.012s latency).
+All 1000 scanned ports on 192.168.0.105 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+# Nmap done at Thu Aug 27 14:33:31 2026 -- 256 IP addresses (2 hosts up) scanned in 5.25 seconds
